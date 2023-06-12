@@ -1,0 +1,23 @@
+{
+  "name": "inquirer",
+  "version": "8.2.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Horrabin",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "utility": "^1.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "generator-de-generator"
+  },
+  "keywords": [
+    "README",
+    "generator"
+  ]
+}
