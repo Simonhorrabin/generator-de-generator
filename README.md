@@ -13,9 +13,10 @@ Utilize Node index.js, example will be shown in the Demo
 ## Contribution
 undefined
 ## Instructions 
-undefined
+Install required packages, run command "node index.js", give the terminal your desired parameters
 ## Credits
-undefined
+- Simon Horrabin
+- Packages & Dependencies: Inquirer, Node, Utility
 ## License
 MIT
 
