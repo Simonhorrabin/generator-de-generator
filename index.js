@@ -40,6 +40,12 @@ const questions = [
         choices: ["MIT", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
         validate: (value) =>{ if(value){return true} else {return 'I need a value to continue'}},
     },
+    {
+    type: 'input',
+    name: 'contact',
+    message: "what email is best to contact you?",
+    validate: (value) =>{ if(value){return true} else {return 'I need a value to continue'}},
+    },
 ]
 
 inquirer.prompt(questions).then(({
@@ -84,7 +90,6 @@ ${license}
     })
 });
 
-// Table of Content 
 
 
 
